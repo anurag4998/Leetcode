@@ -13,7 +13,7 @@ In our recursive equation there is only one variable which changes, i.e index.
 Math.max( (nums[index] + recursion(index + 2, nums)), recursion(index + 1, nums)). Nums is a constant.
 Since there is only one state which modifies, we can use a 1-D array to cache/ memoize our results.
 
-Refer to video for diagram :- 
+Refer to video for diagram :- https://youtu.be/BJGzU-RKDJk
 */
 class Solution {
     public int rob(int[] nums) {
